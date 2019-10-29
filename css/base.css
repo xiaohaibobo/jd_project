@@ -1,0 +1,65 @@
+i {
+  font-style: normal;
+}
+*,
+::before,
+::after {
+  padding: 0;
+  margin: 0;
+  touch-action: none;
+  appearance: none;
+  -moz-appearance: none;
+  -webkit-appearance: none;
+  -o-appearance: none;
+  -ms-appearance: none;
+}
+body {
+  font-size: 14px;
+  font-family: "Microsoft YaHei", Helvetica, sans-serif;
+  background-color: #f6f6f6;
+  color: #656565;
+}
+a {
+  text-decoration: none;
+  color: #656565;
+  -webkit-tap-highlight-color: transparent;
+}
+a:hover {
+  color: #656565;
+}
+.fr {
+  float: right;
+}
+.fl {
+  float: left;
+}
+ol,
+ul {
+  list-style: none;
+}
+input,
+textarea {
+  outline: none;
+  border: none;
+  resize: none;
+}
+table {
+  border-collapse: collapse;
+}
+.clearfix {
+  zoom: 1;
+}
+.clearfix::after {
+  display: block;
+  content: '';
+  visibility: hidden;
+  clear: both;
+  height: 0;
+  font-size: 0;
+}
+@font-face {
+  font-family: JDZhengHT-EN-Bold;
+  src: url(https://wq.360buyimg.com/data/ppms/others/JDZhengHei_01_Bold.ttf) format("truetype");
+  font-weight: 400;
+  font-style: normal;
+}

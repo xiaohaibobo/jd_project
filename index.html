@@ -1,0 +1,592 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0,user-scalable=no,viewport-fit=cover">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <!-- 苹果设备的菜单栏是否显示  -->
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <!-- 设置苹果设备的状态栏的样式为黑色 -->
+    <meta name="apple-mobile-web-app-status-bar-style" content="black">
+    <!-- 苹果设备上 对于一些连续的数字 会自动识别为手机号 可以点击拨号 设置为no -->
+    <meta name="format-detection" content="telephone=no">
+    <title>多快好省，只为品质生活</title>
+    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+    <link rel="stylesheet" href="./css/index.css">
+</head>
+
+<script>
+    var iW = document.documentElement.clientWidth;
+    iW = iW > 1080 ? 1080 : iW;
+    document.querySelector('html').style.fontSize = iW / 8 + 'px'
+</script>
+
+<body>
+    <!-- 头部搜索区域 -->
+    <header>
+        <div class="header_con">
+            <a href="javascript:;"></a>
+            <div class="header_search">
+                <i class="jd_icon"></i>
+                <i class="jd_search_icon"></i>
+                <input type="text" class="search_con" placeholder="联想一体机">
+            </div>
+            <a href="javascript:;">登录</a>
+        </div>
+
+    </header>
+    <!-- 轮播区域 -->
+    <div class="lunbo">
+        <ul class=" lunbo_cont clearfix">
+            <li><a href="javascript:;"><img src="images/lunbo01.dpg" alt=""></a></li>
+            <li><a href="javascript:;"><img src="images/lunbo02.dpg" alt=""></a></li>
+            <li><a href="javascript:;"><img src="images/lunbo03.dpg" alt=""></a></li>
+            <li><a href="javascript:;"><img src="images/lunbo04.dpg" alt=""></a></li>
+            <li><a href="javascript:;"><img src="images/lunbo05.dpg" alt=""></a></li>
+        </ul>
+        <!-- 导航条 -->
+        <div class="nav">
+            <ol class='clearfix'>
+                <li></li>
+                <li class="active"></li>
+                <li></li>
+                <li></li>
+                <li></li>
+            </ol>
+        </div>
+    </div>
+    <!-- 导航列表 -->
+    <div class="nav_List clearfix">
+        <div class="topList clearfix">
+            <div class="navList">
+                <section>
+
+
+                    <a href="javascript:;">
+                        <span></span>
+                        <span>京东超市</span>
+                    </a>
+                    <a href="javascript:;">
+                        <span></span>
+                        <span>数码电器</span>
+                    </a>
+                    <a href="javascript:;">
+                        <span></span>
+                        <span>京东服饰</span>
+                    </a>
+                    <a href="javascript:;">
+                        <span></span>
+                        <span>京东生鲜</span>
+                    </a>
+                    <a href="javascript:;">
+                        <span></span>
+                        <span>京东到家</span>
+                    </a>
+                </section>
+                <!-- 导航列表下半部分 -->
+                <section>
+                    <a href="javascript:;">
+                        <span></span>
+                        <span>充值缴费</span>
+                    </a>
+                    <a href="javascript:;">
+                        <span></span>
+                        <span>9.9元拼</span>
+                    </a>
+                    <a href="javascript:;">
+                        <span></span>
+                        <span>领券</span>
+                    </a>
+                    <a href="javascript:;">
+                        <span></span>
+                        <span>赚钱</span>
+                    </a>
+                    <a href="javascript:;">
+                        <span></span>
+                        <span>PLUS会员</span>
+                    </a>
+                </section>
+            </div>
+            <!-- 第二屏 -->
+            <div class="navList">
+                <section>
+                    <a href="javascript:;">
+                        <span></span>
+                        <span>京东超市</span>
+                    </a>
+                    <a href="javascript:;">
+                        <span></span>
+                        <span>数码电器</span>
+                    </a>
+                    <a href="javascript:;">
+                        <span></span>
+                        <span>京东服饰</span>
+                    </a>
+                    <a href="javascript:;">
+                        <span></span>
+                        <span>京东生鲜</span>
+                    </a>
+                    <a href="javascript:;">
+                        <span></span>
+                        <span>京东到家</span>
+                    </a>
+                </section>
+                <!-- 导航列表下半部分 -->
+                <section>
+                    <a href="javascript:;">
+                        <span></span>
+                        <span>充值缴费</span>
+                    </a>
+                    <a href="javascript:;">
+                        <span></span>
+                        <span>9.9元拼</span>
+                    </a>
+                    <a href="javascript:;">
+                        <span></span>
+                        <span>领券</span>
+                    </a>
+                    <a href="javascript:;">
+                        <span></span>
+                        <span>赚钱</span>
+                    </a>
+                    <a href="javascript:;">
+                        <span></span>
+                        <span>PLUS会员</span>
+                    </a>
+                </section>
+            </div>
+
+        </div>
+        <!-- 列表导航条 -->
+        <ol class="listCircle clearfix">
+            <li class="active"></li>
+            <li></li>
+        </ol>
+    </div>
+    <!-- 广告区域 -->
+    <div class="jd_ad">
+        <div class="adCont">
+            <a href="javascript:;"></a>
+        </div>
+    </div>
+    <!-- 京东秒杀 -->
+    <div class="jd_miaosha">
+        <div class="killTitle clearfix">
+            <h3></h3>
+            <strong>10点场</strong>
+            <div class="time clearfix">
+                <div>03</div>
+                <span>:</span>
+                <div>00</div>
+                <span>:</span>
+                <div>00</div>
+            </div>
+            <!-- 更多秒杀 -->
+            <div class="moreKill clearfix">
+                <span>更多秒杀</span>
+                <span></span>
+            </div>
+        </div>
+        <!-- 秒杀内容 -->
+        <div class="killCont">
+            <ul class="clearfix">
+                <li>
+                    <a href="javascript:;"> <img src="./images/jdms01.dpg" alt=""></a>
+                    <div class="text">
+                        <span><i>&yen;</i>39</span>
+                        <del><i>&yen;</i>49</del>
+                    </div>
+                </li>
+                <li>
+                    <a href="javascript:;"> <img src="./images/jdms02.dpg" alt=""></a>
+                    <div class="text">
+                        <span><i>&yen;</i>197</span>
+                        <del><i>&yen;</i>226</del>
+                    </div>
+                </li>
+                <li>
+                    <a href="javascript:;"> <img src="./images/jdms03.dpg" alt=""></a>
+                    <div class="text">
+                        <span><i>&yen;</i>399</span>
+                        <del><i>&yen;</i>598</del>
+                    </div>
+                </li>
+                <li>
+                    <a href="javascript:;"> <img src="./images/jdms04.dpg" alt=""></a>
+                    <div class="text">
+                        <span><i>&yen;</i>299</span>
+                        <del><i>&yen;</i>399</del>
+                    </div>
+                </li>
+                <li>
+                    <a href="javascript:;"> <img src="./images/jdms05.dpg" alt=""></a>
+                    <div class="text">
+                        <span><i>&yen;</i>260</span>
+                        <del><i>&yen;</i>299</del>
+                    </div>
+                </li>
+            </ul>
+        </div>
+    </div>
+    <!-- 新人专享 -->
+    <div class="newPerson">
+        <ul class="clearfix">
+            <li>
+                <a href="javascript:;">
+                    <img src="./images/xinren1.dpg" alt="">
+                </a>
+            </li>
+            <li>
+                <a href="javascript:;">
+                    <img src="./images/xinren2.dpg" alt="">
+                </a>
+            </li>
+        </ul>
+    </div>
+    <!-- 广告二 -->
+    <div class="jd_ader">
+        <ul class="clearfix">
+            <li>
+                <a href="javascript:;">
+                    <img src="./images/jd_ad01.dpg" alt="">
+                </a>
+            </li>
+            <li>
+                <a href="javascript:;">
+                    <img src="./images/jd_ad02.dpg" alt="">
+                </a>
+            </li>
+            <li>
+                <a href="javascript:;">
+                    <img src="./images/jd_ad03.dpg" alt="">
+                </a>
+            </li>
+        </ul>
+    </div>
+    <!-- 走心推荐 -->
+    <div class="zouxin">
+        <div class="zouxinTitle">
+            <img src="./img/zouxinTitle.dpg" alt="">
+        </div>
+        <div class="zouxin_cont clearfix">
+            <div>
+                <p>手机榜</p>
+                <img src="./img/zouxinCont01.dpg" alt="">
+                <p>热卖尖货</p>
+            </div>
+            <div>
+                <p>时令水果榜</p>
+                <img src="./img/zouxinCont02.dpg" alt="">
+                <p>预售爆款</p>
+            </div>
+            <div>
+                <p>中小学生</p>
+                <img src="./img/zouxinCont03.dpg" alt="">
+                <p>无忧成长</p>
+            </div>
+            <div>
+                <p>旅行装备</p>
+                <img src="./img/zouxinCont04.dpg" alt="">
+                <p>背包客</p>
+            </div>
+        </div>
+    </div>
+    <!-- 精选会场 -->
+    <div class="jingxuan">
+        <div class="jingxuanTitle">
+            <img src="./img/jingxuanTitle.dpg" alt="">
+        </div>
+        <ul class="clearfix">
+            <li>
+                <img src="./img/jxhc01.dpg" alt="">
+                <p>满100减50</p>
+                <span>京东图书</span>
+            </li>
+            <li>
+                <img src="./img/jxhc02.dpg" alt="">
+                <p>0元免费试用</p>
+                <span>新品首发日</span>
+            </li>
+            <li>
+                <img src="./img/jxhc03.dpg" alt="">
+                <p>定金10抵100</p>
+                <span>型格男装</span>
+            </li>
+            <li>
+                <img src="./img/jxhc04.dpg" alt="">
+                <p>天天抢5折</p>
+                <span>手机通讯</span>
+            </li>
+            <li>
+                <img src="./img/jxhc05.dpg" alt="">
+                <p>爆款12期免息</p>
+                <span>电脑数码</span>
+            </li>
+            <li>
+                <img src="./img/jxhc06.dpg" alt="">
+                <p>满199减100</p>
+                <span>京东超市</span>
+            </li>
+            <li>
+                <img src="./img/jxhc07.dpg" alt="">
+                <p>天天抢5折</p>
+                <span>品质家电</span>
+            </li>
+            <li>
+                <img src="./img/jxhc08.dpg" alt="">
+                <p>满199减60</p>
+                <span>汽车装饰</span>
+            </li>
+
+    </div>
+    <!-- 东家小院 -->
+    <div class="jd_garden">
+        <div class="garden_title">
+            <img src="./img/jd_garden.dpg" alt="">
+        </div>
+        <div class="jdxy_cont">
+            <!-- 上半部分 -->
+            <section class="garden_top clearfix">
+                <div class="top_cont">
+                    <div class="garden_text">
+                        <span>海尔家电</span>
+                        <span>科技领先海尔智慧电器</span>
+                    </div>
+                    <div class="garden_img">
+                        <a href="javascript:;">
+                            <img src="./img/garden_cont01.dpg" alt="">
+                        </a>
+                        <a href="javascript:;">
+                            <img src="./img/garden_cont02.dpg" alt="">
+                        </a>
+                    </div>
+                </div>
+                <div class="top_cont">
+                    <div class="garden_text">
+                        <span>赢得关注</span>
+                        <span>文艺青年标配</span>
+                    </div>
+                    <div class="garden_img">
+                        <a href="javascript:;">
+                            <img src="./img/garden_cont03.dpg" alt="">
+                        </a>
+                        <a href="javascript:;">
+                            <img src="./img/garden_cont04.dpg" alt="">
+                        </a>
+                    </div>
+                </div>
+            </section>
+            <section class="garden_bottom clearfix">
+                <ul>
+                    <li>
+                        <span>时尚厨卫</span>
+                        <span>智慧厨房</span>
+                        <a href="javascript:;">
+                            <img src="./img/garden_cont05.dpg" alt="">
+                        </a>
+                    </li>
+                    <li>
+                        <span>完美身形</span>
+                        <span>汗水、激情</span>
+                        <a href="javascript:;">
+                            <img src="./img/garden_cont06.dpg" alt="">
+                        </a>
+                    </li>
+                    <li>
+                        <span>打造居室</span>
+                        <span>小角落精致</span>
+                        <a href="javascript:;">
+                            <img src="./img/garden_cont07.dpg" alt="">
+                        </a>
+                    </li>
+                    <li>
+                        <span>百草味</span>
+                        <span>百草味专区</span>
+                        <a href="javascript:;">
+                            <img src="./img/garden_cont08.dpg" alt="">
+                        </a>
+                    </li>
+                </ul>
+            </section>
+        </div>
+
+
+    </div>
+    <!-- 每日逛 -->
+    <div class="everyday clearfix">
+        <div class="everyday_title">
+            <img src="./img/everyday01.dpg" alt="">
+        </div>
+        <div class="every_cont">
+            <ul class="clearfix">
+                <li>
+                    <span>免息星球</span>
+                    <span>白条免息购</span>
+                    <a href="javascript:;">
+                        <img src="./img/everyday02.dpg" alt="">
+                    </a>
+                </li>
+                <li>
+                    <span>品牌闪购</span>
+                    <span>低价抢大牌</span>
+                    <a href="javascript:;">
+                        <img src="./img/everyday03.dpg" alt="">
+                    </a>
+                </li>
+                <li>
+                    <span>品牌秒杀</span>
+                    <span>享品质好物</span>
+                    <a href="javascript:;">
+                        <img src="./img/everyday04.dpg" alt="">
+                    </a>
+                </li>
+                <li>
+                    <span>京东直播</span>
+                    <span>边看边买</span>
+                    <a href="javascript:;">
+                        <img src="./img/everyday05.dpg" alt="">
+                    </a>
+                </li>
+                <li>
+                    <span>排行榜</span>
+                    <span>专属购物指南</span>
+                    <a href="javascript:;">
+                        <img src="./img/everyday06.dpg" alt="">
+                    </a>
+                </li>
+                <li>
+                    <span>拍拍好物</span>
+                    <span>iphone 5折起</span>
+                    <a href="javascript:;">
+                        <img src="./img/everyday07.dpg" alt="">
+                    </a>
+                </li>
+                <li>
+                    <span>新品首发</span>
+                    <span>京东小魔方</span>
+                    <a href="javascript:;">
+                        <img src="./img/everyday08.dpg" alt="">
+                    </a>
+                </li>
+                <li>
+                    <span>发现好货</span>
+                    <span>教你买买买</span>
+                    <a href="javascript:;">
+                        <img src="./img/everyday09.dpg" alt="">
+                    </a>
+                </li>
+
+            </ul>
+        </div>
+
+    </div>
+    <!-- 京东快报 -->
+    <div class="jd_news clearfix">
+        <h3>
+            <img src="./img/jd_news.dpg" alt="">
+        </h3>
+        <ul class="clearfix">
+            <li>
+                <a href="javascript:;">
+                    <span>HOT</span> 速冻饺子一步变煎饺，这美味不信你不喜欢
+                </a>
+            </li>
+            <li>
+                <a href="javascript:;">
+                    <span>最新</span> 多功能时尚夜光腕表，开启简约风尚
+                </a>
+            </li>
+            <li>
+                <a href="javascript:;">
+                    <span>热门</span>透过味蕾，这杯自制鸡尾酒送给你
+                </a>
+            </li>
+            <li>
+                <a href="javascript:;">
+                    <span>推荐</span> 耐克气垫跑步鞋，都市健跑更自在
+                </a>
+            </li>
+
+        </ul>
+        <a href="javascript:;" class="more">更多</a>
+    </div>
+    <!-- 为你推荐 -->
+    <div class="foryou">
+        <div class="foryou_title">
+            <img src="./img/foryou_title.png" alt="">
+        </div>
+        <section class="foryou_cont clearfix">
+            <div class="foryou_pro">
+                <img src="./img/foryou01.webp" alt="">
+                <span> 罗梅达尔 男鞋 软底休闲鞋男乐福鞋懒人鞋韩版潮流真皮板鞋男士 白色 38 </span>
+                <p>
+                    <span><i>&yen;</i>1998</span>
+                    <span>满减</span>
+                    <a href="javascript:;">看相似</a>
+                </p>
+            </div>
+            <div class="foryou_pro">
+                <img src="./img/foryou02.webp" alt="">
+                <span> 联想（Lenovo）拯救者Y7000 2019 第九代英特尔酷睿 高色域15.6英寸游戏笔记本电脑 i7-9750H 8G 512G GTX1650 </span>
+                <p>
+                    <span><i>&yen;</i>1998</span>
+                    <a href="javascript:;">看相似</a>
+                </p>
+            </div>
+            <div class="foryou_pro">
+                <img src="./img/foryou01.webp" alt="">
+                <span> 罗梅达尔 男鞋 软底休闲鞋男乐福鞋懒人鞋韩版潮流真皮板鞋男士 白色 38 </span>
+                <p>
+                    <span><i>&yen;</i>1998</span>
+                    <a href="javascript:;">看相似</a>
+                </p>
+            </div>
+            <div class="foryou_pro">
+                <img src="./img/foryou01.webp" alt="">
+                <span> 罗梅达尔 男鞋 软底休闲鞋男乐福鞋懒人鞋韩版潮流真皮板鞋男士 白色 38 </span>
+                <p>
+                    <span><i>&yen;</i>1998</span>
+                    <a href="javascript:;">看相似</a>
+                </p>
+            </div>
+            <div class="foryou_pro">
+                <img src="./img/foryou01.webp" alt="">
+                <span> 罗梅达尔 男鞋 软底休闲鞋男乐福鞋懒人鞋韩版潮流真皮板鞋男士 白色 38 </span>
+                <p>
+                    <span><i>&yen;</i>1998</span>
+                    <a href="javascript:;">看相似</a>
+                </p>
+            </div>
+            <div class="foryou_pro">
+                <img src="./img/foryou01.webp" alt="">
+                <span> 罗梅达尔 男鞋 软底休闲鞋男乐福鞋懒人鞋韩版潮流真皮板鞋男士 白色 38 </span>
+                <p>
+                    <span><i>&yen;</i>1998</span>
+                    <a href="javascript:;">看相似</a>
+                </p>
+            </div>
+        </section>
+    </div>
+    <!-- 底部通栏 -->
+    <div class="jd_foot">
+
+        <a href="javascript:;"></a>
+
+        <a href="javascript:;"></a>
+
+        <a href="javascript:;"></a>
+
+        <a href="javascript:;"></a>
+
+        <a href="javascript:;"></a>
+
+    </div>
+    <!-- 返回顶部 -->
+    <a href="javascript:;" class="goTop"></a>
+</body>
+<script src="./js/zepto.js"></script>
+<script src="./js/index.js"></script>
+
+</html>
